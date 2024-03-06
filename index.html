@@ -31,26 +31,45 @@
                 <p class="app-bio-availability">Available to Walk</p>
               </div>
             </div>
-            <div class="options">...</div>
+            <div class="ellipsis">...</div>
           </div>
         </div>
         <div class="app-body">
-          <p class="message-in">That sounds great. I’d be happy with that.</p>
+          <p class="message-in">That sounds great. I'd be happy with that.</p>
           <p class="message-in">
             Could you send over some pictures of your dog, please?
           </p>
-          <div>dog pictures</div>
+          <div class="dog-pictures">
+            <img class="dog-picture" src="images\dog-image-2.jpg" />
+            <img class="dog-picture" src="images\dog-image-3.jpg" />
+            <img class="dog-picture" src="images\dog-image-1.jpg" />
+          </div>
           <p class="message-out">
-            Here are a few pictures. She’s a happy girl!
+            Here are a few pictures. She's a happy girl!
           </p>
           <p class="message-out">Can you make it?</p>
           <p class="message-in">
             She looks so happy! The time we discussed works. How long shall I
             take her out for?
           </p>
-          <radio>2</radio>
+
+          <div class="walk-option">
+            <input id="radio1" type="radio" />
+            <label class="option-description" for="radio1">
+              30 minute walk
+            </label>
+
+            <label class="option-price" for="radio1">$29</label>
+          </div>
+          <div class="walk-option">
+            <input id="radio1" type="radio" />
+            <label class="option-description" for="radio1"> 1 hour walk </label>
+            <label class="option-price" for="radio1">$49</label>
+          </div>
         </div>
-        <div class="app-input-message"></div>
+        <input type="text" class="app-input-message" placeholder="Enter a message">
+        
+      </input>
       </div>
       <div class="text-section">
         <h1 class="text-section-title">Simple booking</h1>
