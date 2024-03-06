@@ -299,10 +299,12 @@ body {
   }
   .capsule {
     top: -5rem;
+    position: fixed;
     left: -20rem;
   }
   .reverse-capsule {
     bottom: -5rem;
+    position: fixed;
     right: -20rem;
   }
 }
