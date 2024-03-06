@@ -15,7 +15,6 @@ body {
   display: flex;
   justify-content: space-between;
   height: 100vh;
-
   flex-direction: row;
   gap: 5rem;
   padding: 0 20% 0;
@@ -279,8 +278,31 @@ body {
   background-color: hsl(270, 20%, 96%);
 }
 
-@media (max-width: 375px) {
+@media (max-width: 780px) {
   .main {
+    display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+  }
+  .text-section {
+    width: auto;
+  }
+  .text-section-title {
+    font-size: 40px;
+    width: 20rem;
+  }
+  .text-section-content {
+    text-align: center;
+  }
+  .capsule {
+    top: -5rem;
+    left: -20rem;
+  }
+  .reverse-capsule {
+    bottom: -5rem;
+    right: -20rem;
   }
 }
